@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { AppProvider } from './contexto/contexto';
-import { supabase } from "./supabase";
 import Menu from './Componentes/Menu';
 import Aleatorios from './Componentes/Aleatorios';
 import Lista from './Componentes/Lista';
